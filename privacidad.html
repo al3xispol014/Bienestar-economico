@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo"><p name>Bienestar Economico</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li>
+                <a href="index.html">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#">Consultoría</a></li>
+                    <li><a href="#">Asesoría</a></li>
+                    <li><a href="#">Finanzas Personales</a></li>
+                </ul>
+            </li>
+            <li><a href="#contac">Contacto</a></li>
+        </ul>
+        <div class="btn">
+            <button>
+                <a href="https://api.whatsapp.com/send?phone=5610867472&text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios." target="_blank">
+                    <img class="btn-image" src="images/whatsapp.png" alt="imagen de un mensaje">
+                </a>
+            </button>
+        </div>
+       
+    </header>
+     <!-- inicio de anuncio avisos -->
+     <div id="inicio" class="anuncio avis">
+      <div class="fondo">
+        <h1>Aviso de Privacidad</h1>
+        <p>Somos responsables y profecionales con tu información.</p>
+      </div>
+    </div>
+    <!-- final de anuncio de avisos -->
+     <main class="aviso-priv">
+        <h2>Aviso de Privacidad </h2>
+        <h4>Tus datos están seguros, tambien odiamos el spam.</h4>
+      <div class="avisos">
+        <p>
+            COMUNIDAD ECONOMICA DE OCELOTE FAMILIAR, S.A.S.; (en adelante Tu Impulso Económico) con domicilio en: Av. Ejercito Nacional No. 505 INT. 1004 Piso 10 Colonia Gradana, Miguel Hidalgo C.P. 11520, CDMX, México, pone a su disposición el presente aviso de privacidad conforme a lo que dispone la ley federal de protección de datos personales en posesión de los particulares.
+
+De conformidad con lo establecido en los artículos 16 y 17 de la ley federal de protección de datos personales en posesión de los particulares, le solicitamos sus siguientes datos personales: nombre, domicilio, registro federal de contribuyentes, teléfono y correo electrónico, los cuales serán utilizados por Tu Impulso Económico para las siguientes finalidades:
+
+a) Proveer servicios de asesoría financiera y gestión de créditos ante instituciones bancarias y financieras seleccionadas por cliente.
+b) Enviar cotizaciones de nuestros honorarios y/o información que usted requiera de nuestros servicios.
+c) Emitirle sus comprobantes fiscales de acuerdo a las disposiciones en las leyes fiscales.
+
+Asimismo le informamos que sus datos podran ser transferidos a terceros que nos apoyen con la única finalidad de brindarle el servicio que usted solicite. En virtud de lo anterior, dichos terceros no podrán utilizar la información proporcionada por Tu Impulso Económico de manera distinta a la establecida en el presente aviso de privacidad.
+
+Usted tiene derecho, conforme a la ley federal de protección de datos personales en posesión de los particulares, de acceder, rectificar, cancelar sus datos personales así como oponerse al tratamiento de los mismos o revocar el consentimiento que para tal fin nos haya otorgado, mediante una solicitud por escrito firmada para dicho fin, en nuestro domicilio indicado en el primer parrafo de este aviso de privacidad.
+
+Si al término de la lectura de éste avíso de privacidad, usted no nos manifiesta su oposición para que sus datos personales sean tratados por Tu Impulso Económico para las finalidades antes descritas, se entenderá que ha otorgado su consentimiento para ello.
+
+Cualquier modificación a este avíso de privacidad será publicado en nuestra página de internet: www.tuimpulsoeconomico.com
+Última fecha de actualización: 01-julio-2022.
+        </p>
+      </div>
+     </main>
+     <div class="cred">
+      <section><h3>  ¡Tramita ahora tu crédito!</h3>
+        <span>Sin nómina, Sin buró, Sin Aval.
+        </span>
+        <button><a href="https://api.whatsapp.com/send?phone=5610867472&text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios.">Solicitar ahora</a></button>
+    </section>
+     </div>
+     
+      <!-- inicio de Formulario -->
+   <div id="contac" class="form-container">
+    <h1>Contáctanos y consigue un crédito</h1>
+    <p>Completa el siguiente formulario para solicitar un préstamo inmediato. Trámite gratuito y completamente en línea.</p>
+    <form action="#" method="post">
+        <label for="nombre">Nombre (s)*</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellidos">Apellidos*</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+
+        <label for="telefono">Teléfono*</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="email">Correo electrónico*</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="monto">Monto que solicitas prestado*</label>
+        <select id="monto" name="monto" required>
+            <option value="">Selecciona</option>
+            <!-- Agrega aquí más opciones -->
+        </select>
+
+        <label for="hora">¿A qué hora te queda mejor que te llamemos?</label>
+        <input type="text" id="hora" name="hora">
+
+        <label for="estado">Estado de la República*</label>
+        <select id="estado" name="estado" required>
+            <option value="">Selecciona</option>
+            <!-- Agrega aquí más opciones -->
+        </select>
+
+        <label for="fecha">Por favor, escribe la fecha del día de hoy*</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="descripcion">Platícanos en qué ocuparás tu crédito</label>
+        <textarea id="descripcion" name="descripcion"></textarea>
+
+        <button type="submit">Enviar</button>
+        <a href="privacidad.html" class="term">terminos y condiciones.</a>
+    </form>
+</div>
+    
+</body>
+</html>
